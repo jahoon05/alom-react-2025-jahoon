@@ -1,0 +1,26 @@
+.todo-item{
+    list-style: none;
+    border-radius: 10px;
+    background-color: #f7f9fa;
+    padding: 18px 24px;
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: none;
+}
+.delete-btn{
+    background: none;
+    color: #f44336;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    transition: color 0.2s;
+}
+.delete-btn:hover {
+    color: #b71c1c;
+}
